@@ -4,26 +4,24 @@ class Translation(object):
 
     START_TEXT = """
 Hello,
-i am Telegram URL Upload Bot! Created by @shreevish
+i am Telegram URL Upload Bot!
 
 Please send me any direct download URL Link, i can upload to telegram as File/Video
 
  🚨 . . . Note : its support almost all direct Url's except torrent link & some links . . . 🚨
  
-🚨 PRON video🔞 Links gives you PERMANENT BAN 🚨
+🚨 video🔞 Links gives you PERMANENT BAN 🚨
 
        ┈┈┈••💙✿❤️✿💚••┈┈┈
        
-URL-UPLOADER bot created by @shreevish
+URL-UPLOADER bot
 
 ➼/start = To Check whether the bot is alive or not
 ➼/help = To Know how to use me! 
 ➼/about = To know what am I !
-
-⚠️Note :- Join My Channel before paste the link"""
+"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "Contact @shreevish for Details"
     FORMAT_SELECTION = """📭 𝗦𝗲𝗹𝗲𝗰𝘁 𝗔𝗻𝗱 𝗖𝗵𝗼𝘀𝗲 𝗬𝗼𝘂𝗿 𝗙𝗼𝗿𝗺𝗮𝘁👇
 
 🎞️ 𝗩𝗜𝗗𝗘𝗢 = Upload as Streamble.
@@ -61,19 +59,9 @@ Made by @shreevish
 """
     ABOUT_TEXT = """
 - **Bot :** `URL Uploader`
-- **Creator :** [꧁★HACKER★꧂](https://telegram.me/shreevish)
-- **Channel :** [Aʟʟ Mᴏᴠɪᴇ Rᴏᴄᴋᴇʀs](https://telegram.me/FayasNoushad)
-- **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/Satyamurthi/AMR-Url_Uploader)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🔗Channel🔗', url='https://telegram.me/All_Movie_Rockers'),
-        InlineKeyboardButton('Creator ♐️', url='https://telegram.me/shreevish')
-        ],[
         InlineKeyboardButton('💡Help💡', callback_data='help'),
         InlineKeyboardButton('🏷About🏷', callback_data='about'),
         InlineKeyboardButton('🔐Close🔐', callback_data='close')
@@ -110,10 +98,10 @@ You can use /delthumb to delete the auto-generated thumbnail."""
     UPLOAD_START = "<code>Uploading into Telegram...</code>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
-    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @All_Movie_Rockers"
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    CUSTOM_CAPTION_UL_FILE = "Thank You!"
+    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. "
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     REPORT_SITE_TEXT = "<code>Sorry not uploading in this site here because this site is reporting site.</code>"
     SOMETHING_WRONG = "<code>Something Wrong. Try again.</code>"
-    FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for using me 😌😉....</code>"
+    FORCE_SUBSCRIBE_TEXT = ""
     FREE_USER_LIMIT_Q_SZE = "Sorry Friend, Free users can only 1 request per {} minutes. Please try again after {} seconds later."
